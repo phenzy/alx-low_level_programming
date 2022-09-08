@@ -1,8 +1,2 @@
 #!/bin/bas
-#include <stdio.h>
-int main(void)
-{
-
-
-return 0;
-}
+echo "int main(void)" > c
