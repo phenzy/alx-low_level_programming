@@ -17,15 +17,15 @@ int main(void);
 
 	if (n > 0)
 	{
-	printf("The value of n is greater than 0\n")
+	printf("The value of n is greater than 0\n"); }
 
 	else if (n == 0)
 	{
-	printf("The value of n is equal to 0\n")
+	printf("The value of n is equal to 0\n"); }
 
 	else
 	{
-	printf("The value of n is equal to 0\n") }
+	printf("The value of n is equal to 0\n"); }
 
 	return (0);
 }
