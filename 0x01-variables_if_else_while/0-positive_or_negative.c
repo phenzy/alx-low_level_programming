@@ -22,7 +22,7 @@ int main(void);
 	printf("The value of n is equal to 0\n") }
 	else
 	{
-	printf("The value of n is equal to 0\n™) }
-	return 0;
+	printf("The value of n is equal to 0\n") }
+	return (0);
 }
 
