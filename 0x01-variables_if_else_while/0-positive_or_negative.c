@@ -2,9 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- **the parameter is here
-**down below
+/**
+ *main - Entry poin
+*
+* Return: Always 0 (Success/correct)
 */
 
 int main(void);
@@ -17,15 +18,15 @@ int main(void);
 
 	if (n > 0)
 	{
-	printf("The value of n is greater than 0\n"); }
+	printf("The value of n is positive\n"); }
 
 	else if (n == 0)
 	{
-	printf("The value of n is equal to 0\n"); }
+	printf("The value of n is zero\n"); }
 
 	else
 	{
-	printf("The value of n is equal to 0\n"); }
+	printf("The value of n is negative\n"); }
 
 	return (0);
 }
