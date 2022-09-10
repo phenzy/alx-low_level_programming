@@ -26,7 +26,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%i is equal to 0\n", n);
+		printf("%i is  0\n", n);
 	}
 
 	return (0);
