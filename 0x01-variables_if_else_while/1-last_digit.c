@@ -4,11 +4,12 @@
 
 /**
  * main - Entry point
- *Return : Always 0 (Success)
+ *
+ * Description: Get a random number and check its last digit, compare it with 5
+ *Return: 0
 */
 
 int main(void)
-
 {
 	int n;
 	int last;
@@ -23,9 +24,9 @@ int main(void)
 	}
 	else if (last == 0)
 	{
-	printf("last digit of %d is %d and is 0\n", n, last);
+	printf("Last digit of %d is %d and is 0\n", n, last);
 	}
 	else if (last < 6)
 	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last);
-	Return(0);
+	return (0);
 }
