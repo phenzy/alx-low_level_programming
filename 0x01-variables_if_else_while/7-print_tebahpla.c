@@ -2,19 +2,19 @@
 
 /**
  * main - main block
- * Description: Prints all single digit numbers of base 10 starting from 0,
- * only using putchar and without char variables.
+ * Description: print the alphabet in lowercase,
+ * in reverse followed by a new line
  * Return: 0
  */
 
 int main(void)
 {
-	int c = 0;
+	char c = 'z';
 
-	while (c < 10)
+	while (c >= 'a')
 	{
-		putchar(48 + c);
-		c++;
+		putchar(c);
+		c--;
 	}
 
 	putchar('\n');
