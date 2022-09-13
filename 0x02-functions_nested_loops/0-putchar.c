@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  *  _putchar - writes the character c to stdout
  * @char: The character to print
@@ -15,7 +16,8 @@ int _putchar(char)
 	_putchar("h");
 	_putchar("a");
 	_putchar("r");
-
+	_putchar("\n");
+	
 	return (0);
 
 }
