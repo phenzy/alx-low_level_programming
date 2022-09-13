@@ -6,7 +6,6 @@
  * 0n error, 1 is returned
  */
 
-int _putchar(char)
 {
 	_putchar("_");
 	_putchar("p");
@@ -17,7 +16,7 @@ int _putchar(char)
 	_putchar("a");
 	_putchar("r");
 	_putchar("\n");
-	
+
 	return (0);
 
 }
