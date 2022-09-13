@@ -5,7 +5,6 @@
  * Return: On success, char
  * 0n error, 1 is returned
  */
-
 {
 	_putchar("_");
 	_putchar("p");
