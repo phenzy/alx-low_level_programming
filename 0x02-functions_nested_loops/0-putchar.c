@@ -1,20 +1,19 @@
 #include "main.h"
-/**
- *  _putchar - writes the character c to stdout
- * @char: The character to print
- * Return: On success, char
- * 0n error, 1 is returned
- */
-{
-	_putchar("_");
-	_putchar("p");
-	_putchar("u");
-	_putchar("t");
-	_putchar("c");
-	_putchar("h");
-	_putchar("a");
-	_putchar("r");
-	_putchar("\n");
 
-	return (0);
+/**
+ *main - function to print putchar
+ *
+ * Return: 0
+ */
+int _putchar(char);
+{
+	char _putchar[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	unsigned int c;
+
+	for (c = 0; c < sizeof(_putchar); c++)
+	{
+		_putchar(_putchar[c]);
+	}
+_putchar('\n');
+return (0);
 }
