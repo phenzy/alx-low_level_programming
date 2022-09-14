@@ -1,5 +1,5 @@
 /*
- * File: 7-print_last_digit.c 
+ * File: 7-print_last_digit.c
  */
 
 #include "main.h"
