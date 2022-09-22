@@ -1,29 +1,3 @@
-
-Pull requests
-Issues
-Marketplace
-Explore
-@phenzy
-TechByDami /
-alx-low_level_programming
-Public
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-
-    Insights
-
-alx-low_level_programming/0x06-pointers_arrays_strings/7-leet.c
-@TechByDami
-TechByDami encodes a string into 1337 🌍🏆🇳🇬🔥
-Latest commit ac4855d 11 hours ago
-History
-1 contributor
-executable file 30 lines (26 sloc) 504 Bytes
 #include "main.h"
 /**
  * leet - encodes a string into 1337
