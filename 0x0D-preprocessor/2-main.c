@@ -1,10 +1,12 @@
 #include <stdio.h>
+
 /**
- * main - prints the file name  with a new line
- * Return: 0;
+ * main - print the name of the file that was compiled
+ * Return: int
  */
-int main (void)
+
+int main(void)
 {
-	printf("%s\n", __FILE__);
-	return (0);
+printf("%s\n", __FILE__);
+return (0);
 }
